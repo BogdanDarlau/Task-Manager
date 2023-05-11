@@ -1,0 +1,36 @@
+input {
+  width: 400px;
+  height: 40px;
+  border-radius: 12px;
+  border: solid #b4d0d8;
+  margin: 15px 15px;
+  background-color: #e6edf4;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  width: 100px;
+  height: 40px;
+  margin-left: 170px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 600;
+  color: white;
+  background-color: #1a5188;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #1a5188;
+  border: solid #1a5188;
+  width: 103px;
+  height: 43px;
+  margin-top: 18.5px;
+  margin-left: 168.5px;
+  cursor: pointer;
+}

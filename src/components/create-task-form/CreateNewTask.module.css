@@ -1,0 +1,47 @@
+.form_row {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.label_md {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #2c2e3a;
+}
+
+.imput_primary {
+  margin: 5px 0;
+  padding: 16px;
+  gap: 10px;
+  border: 1px solid #a8abbd;
+  border-radius: 12px;
+  font-size: 16px;
+  font-family: "sen", sans-serif;
+}
+
+textarea.imput_primary {
+  resize: none;
+}
+
+.button_primary {
+  background: #3754db;
+  border-radius: 12px;
+  padding: 19px 74px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-family: "sen", sans-serif;
+}
+
+.button_primary:hover {
+  padding: 21px 76px;
+  margin-top: -2px;
+  margin-bottom: -2px;
+  margin-left: -2px;
+}
